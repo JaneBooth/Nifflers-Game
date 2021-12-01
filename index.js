@@ -10,7 +10,7 @@ function addKnut(){
 
 function updateMoneyDisplay(){
     const htmlKnuts = document.getElementById("knutsDisplay");
-    htmlKnuts.innerText = "Knuts = " + playerMoney.getKnuts(); 
+    htmlKnuts.innerText = "Knuts: " + playerMoney.getKnuts(); 
     const htmlSickles = document.getElementById("sicklesDisplay");
     htmlSickles.innerText = "Sickles: " + playerMoney.getSickles();
     const htmlGalleons = document.getElementById("galleonsDisplay");
