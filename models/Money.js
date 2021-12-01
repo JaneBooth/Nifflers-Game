@@ -5,6 +5,10 @@ class Money{
         this._totalKnuts = 0;
     }
 
+    getTotalKnuts(){
+        return this._totalKnuts;
+    }
+
     getGalleons(){
         const totalKnutsAsSickles = Math.floor(this._totalKnuts/this._knutsPerSickle);
         const totalKnutsAsGalleons = Math.floor(totalKnutsAsSickles/this._sicklesPerGalleon);
